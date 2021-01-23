@@ -15,7 +15,7 @@ node('master')
    stage('ContinuousTesting')
    {
        git 'https://github.com/intelliqittrainings/FunctionalTesting.git'
-       sh 'java -jar /home/ubuntu/.jenkins/workspace/ScriptedPipeline_main/testing.jar'
+
    }
    
    
