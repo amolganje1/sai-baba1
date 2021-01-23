@@ -16,6 +16,7 @@ node('master')
    {
        git 'https://github.com/intelliqittrainings/FunctionalTesting.git'
 
+       sh 'java -jar /var/lib/jenkins/workspace/ScriptedPipeline_main/testing.jar'
    }
    
    
